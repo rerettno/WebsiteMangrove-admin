@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         localStorage.setItem('token', data.token);
 
                         // Redirect to the admin page
-                        window.location.href = "admin.html";
+                        window.location.href = "../mangroveLogin/index.html";
                     } else {
                         
                         // Handle email field
